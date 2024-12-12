@@ -11,6 +11,7 @@ the named entities or triples related to the text, according to the chosen instr
 ## 🤖 Models
 - [Lllama3-8b](https://huggingface.co/leopiano98/LLIMONIIE_anita-8b)
 - [Anita-8b](https://huggingface.co/leopiano98/LLIMONIIE_llama3-8b)
+- [phi3-mini](https://huggingface.co/leopiano98/LLIMONIIIE_phi3-mini)
 ## 💻 Quick Start
 ### Setup conda environment
 Install the unsloth package following the repo [guide](https://github.com/unslothai/unsloth?tab=readme-ov-file#conda-installation)
