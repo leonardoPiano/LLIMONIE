@@ -9,6 +9,8 @@ for Open Named Italian Information Extraction"
 the named entities or triples related to the text, according to the chosen instruction.
 
 ## 🤖 Models
+- [Lllama3-8b](https://huggingface.co/leopiano98/LLIMONIIE_anita-8b)
+- [Anita-8b](https://huggingface.co/leopiano98/LLIMONIIE_llama3-8b)
 ## 💻 Quick Start
 ### Setup conda environment
 Install the unsloth package following the repo [guide](https://github.com/unslothai/unsloth?tab=readme-ov-file#conda-installation)
@@ -20,7 +22,7 @@ git clone https://github.com/leonardoPiano/LLIMONIE.git
 ```python
 from PromptTemplates.instruct_prompt_templates import  NER,RE,JOINT
 from LLM.Unsloth import UnslothLLM
-model_path="leopiano98/LLIMONIE_anita8b"
+model_path="leopiano98/LLIMONIIE_anita-8b"
 
 llimonie=UnslothLLM(model_path,inference=True)
 task=NER
